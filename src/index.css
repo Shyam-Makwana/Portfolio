@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  overflow: hidden;
+}
+
+:root {
+  --background-primary: #1e2535;
+  --background-secondary: #243c58;
+  --background-accent: #486177;
+  --text-secondary: #909a9c;
+  --text-primary: #e0e0d4;
+}
+
+*::-webkit-scrollbar-thumb {
+  display: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+*::selection {
+  background: var(--text-secondary);
+  color: var(--background-primary);
+}
