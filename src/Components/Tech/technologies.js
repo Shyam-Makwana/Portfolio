@@ -23,7 +23,7 @@ export const technologies = [
   {
     title: "Tools",
     techs: [
-      "Linux", "Windows", "Visual Studio Code", "Git", "Github", "Packet Tracer", "Anaconda",
+      "Linux", "Windows", "Visual Studio Code", "Git", "Github", "Packet Tracer", "Wireshark", "Anaconda",
       "MySQL", "MongoDB", "Netbeans", "Eclipse", "Prolog", "PyCharm", "PhpMyAdmin", "DosBox"
     ],
   },

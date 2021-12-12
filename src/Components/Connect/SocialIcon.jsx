@@ -1,7 +1,7 @@
-const SocialIcon = ({ url, Icon }) => {
+const SocialIcon = ({ url, Icon, pdb, pdr }) => {
   return (
-    <a href={url}>
-      <Icon size={24} className="my-4" />
+    <a href={url} target="_blank" rel="noreferrer">
+      <img src={Icon} style={{ paddingBottom: pdb, paddingRight: pdr }} alt="" />
     </a>
   );
 };

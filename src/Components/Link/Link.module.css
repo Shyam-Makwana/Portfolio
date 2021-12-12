@@ -1,12 +1,25 @@
 .Link {
-  color: var(--text-secondary);
+  color: var(--text-info);
   margin-bottom: 0;
 }
 .ActiveLink {
   color: var(--text-primary);
+  font-weight: bold;
 }
 
-.Link::before,
+.Link::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: center;
+  background-color: var(--text-primary);
+  transition: all 400ms;
+}
 .ActiveLink::before {
   content: "";
   position: absolute;
@@ -22,8 +35,7 @@
 }
 
 .Link:hover::before,
-.Link:active::before,
-.ActiveLink::before {
+.Link:active::before {
   transform: scale(1);
   transition: all 400ms;
   opacity: 1;

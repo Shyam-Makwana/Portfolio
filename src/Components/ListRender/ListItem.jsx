@@ -1,19 +1,28 @@
 import Tag from "../Tag/Tag";
-import { VscGithub, VscLinkExternal } from "react-icons/vsc";
+import { VscGithub } from "react-icons/vsc";
+import { GrCertificate } from "react-icons/gr";
+import { HiLink } from "react-icons/hi";
+import SocialIcon from "../Connect/SocialIcon";
 
 const ListItem = ({ item }) => {
   return (
     <div className="my-4">
-      <h1 className="text-2xl font-bold">{item.title}</h1>
-      {item.role && <p className="text-lg text-gray-300">{item.role}</p>}
+      <h1 className="text-2xl font-bold" style={{
+        color: "var(--text-primary)",
+      }}>{item.title}</h1>
+      {item.role && <p className="text-lg text-gray-300" style={{
+        color: "var(--text-secondary)",
+      }}>{item.role}</p>}
       {item.duration && (
-        <i className="text-gray-300 text-base">{item.duration}</i>
+        <i className="text-gray-300 text-base" style={{
+          color: "var(--text-secondary)",
+        }}>{item.duration}</i>
       )}
       {item.description && (
         <p
           className="mt-1 text-base"
           style={{
-            color: "var(--text-secondary)",
+            color: "var(--text-info)",
           }}
         >
           {item.description}
@@ -27,16 +36,11 @@ const ListItem = ({ item }) => {
         </div>
       )}
       <div className="flex">
-        {item.github && (
-          <a href={item.github} target="_blank" rel="noreferrer">
-            <VscGithub size={24} />
-          </a>
-        )}
-        {item.link && (
-          <a href={item.link} target="_blank" rel="noreferrer">
-            <VscLinkExternal size={24} className="mx-4" />
-          </a>
-        )}
+        {item.github && <SocialIcon url={item.github} Icon="https://img.icons8.com/color/32/000000/github--v1.png" pdr={7}/>}
+        {item.link && <SocialIcon url={item.link} Icon="https://img.icons8.com/color/32/000000/domain--v1.png" pdr={5}/>}
+      </div>
+      <div>
+        {item.certificate &&  <SocialIcon url={item.certificate} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
       </div>
     </div>
   );

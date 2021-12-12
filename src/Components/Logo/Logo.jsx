@@ -6,10 +6,10 @@ const Logo = () => {
       className="font-bold text-3xl mx-4"
       style={{
         fontFamily: "'Pacifico', cursive",
-        color: "var(--text-secondary)",
+        color: "var(--text-primary)",
       }}
     >
-      Shyam Makwana
+      Shyam
     </h1>
   );
 };

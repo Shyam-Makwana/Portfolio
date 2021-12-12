@@ -13,21 +13,11 @@ const Links = ({ className, click, delay }) => {
       }}
       className={["flex", className].join(" ")}
     >
-      <Link name="About" path="/" delay={delay} click={click} />
-      <Link
-        name="Experience"
-        path="/experience"
-        delay={delay + 0.1}
-        click={click}
-      />
+      <Link name="Home" path="/" delay={delay} click={click} />
+      <Link name="Experience" path="/experience" delay={delay + 0.1} click={click} />
       <Link name="Technology" path="/tech" delay={delay + 0.2} click={click} />
       <Link name="Projects" path="/project" delay={delay + 0.3} click={click} />
-      <Link
-        name="Education"
-        path="/education"
-        delay={delay + 0.4}
-        click={click}
-      />
+      <Link name="Education" path="/education" delay={delay + 0.4} click={click} />
     </motion.div>
   );
 };

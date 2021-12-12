@@ -22,12 +22,21 @@ span {
 }
 
 :root {
-  --background-primary: #1e2535;
-  --background-secondary: #243c58;
-  --background-accent: #486177;
-  --text-secondary: #909a9c;
-  --text-primary: #e0e0d4;
+  --background-primary: #EDF9FE;
+  --background-secondary: #EDF9FE;
+  --background-accent: #b4cee6;
+  --text-primary: #001C55;
+  --text-secondary: #5580A9;
+  --text-info: #5d7097;
+  --text-header: #0e337e;
+  --text-extra: #ff0000;
 }
+
+/* accent = tags */
+/* text-primary = tag color and navbar selected color */
+/* text-secondary = navbar color, main head color(education), details of exp & projects only */
+/* bg-primary = background color only */
+/* bg-secondary = in mobile view bg color */
 
 *::-webkit-scrollbar-thumb {
   display: none;
