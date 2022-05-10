@@ -55,11 +55,11 @@ const Intro = (props) => {
         }}
       >
         <p className="my-4">
-        Howdy Pals, I am a Competitive Programmer and student of Information & Technology. I love creating beautiful web interfaces that can interact with the backend and database. I started my programming journey with one of the most loved programming language C. Eventually, I learned other programming languages like C++, Java, Javascript, and Python.
-I like to spend most of my time with competitive programming and problem-solving. I am a 4-star coder of Codechef - a popular coding platform and have solved more than 500 various problems of other platforms as well.
+        Howdy pals, I am a competitive programmer and student of Information Technology. I started my programming journey with one of the most loved programming languages C. Eventually, I learned other programming languages like C++, Java, Javascript, and Python.
+I like to spend most of my time with competitive programming and problem-solving. I am a 4-star coder of Codechef - a popular coding platform and have solved more than 500 various problems of other platforms as well. I love creating beautiful web interfaces that can interact with the backend and database. 
         </p>
         <p>
-          Besides this, I like playing with data and gaining powerful insights from them. I have a strong inclination towards Competitive Programming, Data Science, Machine Learning, and Artificial Intelligence.
+          Besides this, I like playing with data and gaining powerful insights from them. I have a strong inclination toward Competitive Programming, Data Science, Machine Learning, and Artificial Intelligence.
         </p>
       </motion.div>
       <div className="flex">

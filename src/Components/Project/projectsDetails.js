@@ -1,5 +1,20 @@
 export const projects = [
   {
+    title: "Network Admission Control using Single Packet Authorization",
+    description:
+      `Developed an Authentication Protocol for ISRO that gives access to the User (client) to access any private services in the ISRO network.
+       The primary objective is to access services running in the network and securely communicate authentication and authorization information across closed firewall ports, usually with the goal of opening specific ports to allow temporary access.
+       The scope of this research work enables the SDP Gateway of any organization to distinguish authorized and unauthorized connection attempts while only needing to evaluate a single network packet.
+       Understood the ISRO's current network architecture and modified it to Software Defined Perimeter model.`,
+    techs: [
+      "C++",
+      "C#", ".Net",
+      "Socket Programming",
+    ],
+    github: "",
+    link: "https://drive.google.com/file/d/1mwrIm-ucbJBZQYUStrMEQYGzWcbpyVnC/view?usp=sharing",
+  },
+  {
     title: "Waste Food Management System",
     description:
       `Responsive MERN Stack Web Application with Google Map API for accurate address and SendGrid API for sending Emails that passed Blackbox and Whitebox testing, developed with a goal to minimize food wastage. There are two users, one is a donor and the second one is the recipient, where the donor can donate the food and the recipient can receive that food.`,
@@ -17,8 +32,7 @@ export const projects = [
   {
     title: "All In One Compiler",
     description:
-      `Web Application with self-designed compiler and diverse concepts like computing first &
-      follow, eliminating left factoring, left recursion, and token generation.`,
+      `Web Application calculator that covers all the concepts of Compiler Design such as First & Follow, Left factoring, Left Recursion, Token Generation, and Self-Designed Compiler.`,
     techs: [
       "Flex",
       "Yacc",

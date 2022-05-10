@@ -1,7 +1,7 @@
 export const eduDetails = [
   {
     title: "Dharmsinh Desai University, Nadiad",
-    degree: "Bachelor of Technology (Information Technology)",
+    degree: "BTech - Information Technology (Gold Medalist)",
     year: "July 2018 - May 2022",
   },
   {
