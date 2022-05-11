@@ -10,7 +10,7 @@ export const work = [
       "C#", ".Net",
       "Socket Programming",
     ],
-    certificate: "https://drive.google.com/file/d/1zvapcw_y_HrFQjhi5i4KmSD2qxwAf9U3/view?usp=sharing",
+    isro_certificate: true,
   },
   {
     title: "Four Clowns, Ahmedabad",
@@ -21,6 +21,6 @@ export const work = [
       Applied knowledge of Node Js, React Js, MongoDB, GraphQL, and Bootstrap in an ongoing project.
       Suggested a new UI design for the website making it more user-friendly, and collaborated on finding and fixing bugs.`,
     techs: ["React JS", "Node JS", "Express JS", "GraphQL", "MongoDB", "Bootstrap"],
-    certificate: "https://drive.google.com/file/d/1njUNX6jV_UIbeOSkMgb-Rj48dDXDRP2L/view?usp=sharing",
+    fourclowns_certificate: true,
   },
 ];

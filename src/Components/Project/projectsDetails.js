@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Network Admission Control using Single Packet Authorization",
     description:
-      `Developed an Authentication Protocol for ISRO that gives access to the User (client) to access any private services in the ISRO network.
+      `Developed an authentication protocol for ISRO that gives access to the user (client) to access any private services in the ISRO network.
        The primary objective is to access services running in the network and securely communicate authentication and authorization information across closed firewall ports, usually with the goal of opening specific ports to allow temporary access.
        The scope of this research work enables the SDP Gateway of any organization to distinguish authorized and unauthorized connection attempts while only needing to evaluate a single network packet.
        Understood the ISRO's current network architecture and modified it to Software Defined Perimeter model.`,
@@ -12,7 +12,8 @@ export const projects = [
       "Socket Programming",
     ],
     github: "",
-    link: "https://drive.google.com/file/d/1mwrIm-ucbJBZQYUStrMEQYGzWcbpyVnC/view?usp=sharing",
+    link: "",
+    isro_report: true,
   },
   {
     title: "Waste Food Management System",

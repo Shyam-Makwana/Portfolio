@@ -3,6 +3,9 @@ import { VscGithub } from "react-icons/vsc";
 import { GrCertificate } from "react-icons/gr";
 import { HiLink } from "react-icons/hi";
 import SocialIcon from "../Connect/SocialIcon";
+import ISRO from "../../assets/ISRO_Certificate.pdf";
+import FOURCLOWNS from "../../assets/FourClowns_Certificate.pdf";
+import REPORT from "../../assets/ISRO_Project_Report.pdf";
 
 const ListItem = ({ item }) => {
   return (
@@ -40,7 +43,9 @@ const ListItem = ({ item }) => {
         {item.link && <SocialIcon url={item.link} Icon="https://img.icons8.com/color/32/000000/domain--v1.png" pdr={5}/>}
       </div>
       <div>
-        {item.certificate &&  <SocialIcon url={item.certificate} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
+        {item.isro_certificate &&  <SocialIcon url={ISRO} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
+        {item.fourclowns_certificate &&  <SocialIcon url={FOURCLOWNS} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
+        {item.isro_report &&  <SocialIcon url={REPORT} Icon="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/30/000000/external-report-data-analytics-flaticons-lineal-color-flat-icons-3.png"/>}
       </div>
     </div>
   );
