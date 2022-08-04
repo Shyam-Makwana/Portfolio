@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d37e549b.chunk.css",
-    "main.js": "/portfolio/static/js/main.f17b480f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f17b480f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.971ac08d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.971ac08d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fd2ea575.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fd2ea575.js.map",
     "static/css/2.b53d6446.chunk.css": "/portfolio/static/css/2.b53d6446.chunk.css",
@@ -17,13 +17,13 @@
     "static/media/FourClowns_Certificate.a11a2aef.pdf": "/portfolio/static/media/FourClowns_Certificate.a11a2aef.pdf",
     "static/media/ISRO_Certificate.7fe0f338.pdf": "/portfolio/static/media/ISRO_Certificate.7fe0f338.pdf",
     "static/media/ISRO_Project_Report.ca90637b.pdf": "/portfolio/static/media/ISRO_Project_Report.ca90637b.pdf",
-    "static/media/Resume.7e46f5ce.pdf": "/portfolio/static/media/Resume.7e46f5ce.pdf"
+    "static/media/Resume.8a5cd4e4.pdf": "/portfolio/static/media/Resume.8a5cd4e4.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.fd2ea575.js",
     "static/css/2.b53d6446.chunk.css",
     "static/js/2.8776dc8a.chunk.js",
     "static/css/main.d37e549b.chunk.css",
-    "static/js/main.f17b480f.chunk.js"
+    "static/js/main.971ac08d.chunk.js"
   ]
 }
