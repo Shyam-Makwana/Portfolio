@@ -20,7 +20,7 @@ export const work = [
       `- Worked with senior developers on development projects for the website throughout the various phases of the project life cycle.
       Applied knowledge of Node Js, React Js, MongoDB, GraphQL, and Bootstrap in an ongoing project.
       Suggested a new UI design for the website making it more user-friendly, and collaborated on finding and fixing bugs.`,
-    techs: ["React JS", "Node JS", "Express JS", "GraphQL", "MongoDB", "Bootstrap"],
+    techs: ["React JS", "Node JS", "Express JS", "MongoDB", "Bootstrap"],
     fourclowns_certificate: true,
   },
 ];

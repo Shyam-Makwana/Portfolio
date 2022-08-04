@@ -2,7 +2,7 @@ export const technologies = [
   {
     title: "Core",
     techs: [
-      "Competitive Programming", "Artificial Intelligence", "Machine Learning", "Data Structure", "Database",
+      "Software Engineering", "Artificial Intelligence", "Machine Learning", "Competitive Programming", "Data Structure", "Database",
     ],
   },
   {
@@ -12,7 +12,7 @@ export const technologies = [
       "JavaScript",
       "SQL", "PL/SQL", "Verilog", "Prolog", "Assembly Language"
     ],
-  },
+  }, 
   {
     title: "Frameworks & Libraries",
     techs: [
@@ -23,7 +23,7 @@ export const technologies = [
   {
     title: "Tools",
     techs: [
-      "Linux", "Windows", "Visual Studio Code", "Git", "Github", "Packet Tracer", "Wireshark", "Anaconda",
+      "Linux", "Docker", "Visual Studio Code", "Git", "Github", "Packet Tracer", "Wireshark", "Anaconda",
       "MySQL", "MongoDB", "Netbeans", "Eclipse", "Prolog", "PyCharm", "PhpMyAdmin", "DosBox"
     ],
   },

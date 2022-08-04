@@ -55,7 +55,7 @@ const Intro = (props) => {
         }}
       >
         <p className="my-4">
-        Howdy pals, I am a competitive programmer and student of Information Technology. I started my programming journey with one of the most loved programming languages C. Eventually, I learned other programming languages like C++, Java, Javascript, and Python.
+        Hello readers, I am a competitive programmer and student of Information Technology. I started my programming journey with one of the most loved programming languages C. Eventually, I learned other programming languages like C++, Java, Javascript, and Python.
 I like to spend most of my time with competitive programming and problem-solving. I am a 4-star coder of Codechef - a popular coding platform and have solved more than 500 various problems of other platforms as well. I love creating beautiful web interfaces that can interact with the backend and database. 
         </p>
         <p>
