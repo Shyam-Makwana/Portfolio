@@ -1,29 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d37e549b.chunk.css",
-    "main.js": "/portfolio/static/js/main.f11cb835.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f11cb835.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.fd2ea575.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fd2ea575.js.map",
-    "static/css/2.b53d6446.chunk.css": "/portfolio/static/css/2.b53d6446.chunk.css",
-    "static/js/2.8776dc8a.chunk.js": "/portfolio/static/js/2.8776dc8a.chunk.js",
-    "static/js/2.8776dc8a.chunk.js.map": "/portfolio/static/js/2.8776dc8a.chunk.js.map",
-    "static/js/3.8ed3ab70.chunk.js": "/portfolio/static/js/3.8ed3ab70.chunk.js",
-    "static/js/3.8ed3ab70.chunk.js.map": "/portfolio/static/js/3.8ed3ab70.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.92f89a41.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.92f89a41.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cff71203.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cff71203.js.map",
+    "static/js/2.b32a49c0.chunk.js": "/portfolio/static/js/2.b32a49c0.chunk.js",
+    "static/js/2.b32a49c0.chunk.js.map": "/portfolio/static/js/2.b32a49c0.chunk.js.map",
+    "static/js/3.a4a2519a.chunk.js": "/portfolio/static/js/3.a4a2519a.chunk.js",
+    "static/js/3.a4a2519a.chunk.js.map": "/portfolio/static/js/3.a4a2519a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/2.b53d6446.chunk.css.map": "/portfolio/static/css/2.b53d6446.chunk.css.map",
     "static/css/main.d37e549b.chunk.css.map": "/portfolio/static/css/main.d37e549b.chunk.css.map",
-    "static/js/2.8776dc8a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8776dc8a.chunk.js.LICENSE.txt",
+    "static/js/2.b32a49c0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b32a49c0.chunk.js.LICENSE.txt",
+    "static/media/CodeChef_DDU_Chapter_Certificate.d9249f35.pdf": "/portfolio/static/media/CodeChef_DDU_Chapter_Certificate.d9249f35.pdf",
     "static/media/FourClowns_Certificate.a11a2aef.pdf": "/portfolio/static/media/FourClowns_Certificate.a11a2aef.pdf",
     "static/media/ISRO_Certificate.7fe0f338.pdf": "/portfolio/static/media/ISRO_Certificate.7fe0f338.pdf",
     "static/media/ISRO_Project_Report.ca90637b.pdf": "/portfolio/static/media/ISRO_Project_Report.ca90637b.pdf",
-    "static/media/Resume.8a5cd4e4.pdf": "/portfolio/static/media/Resume.8a5cd4e4.pdf"
+    "static/media/Resume.89c3a843.pdf": "/portfolio/static/media/Resume.89c3a843.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd2ea575.js",
-    "static/css/2.b53d6446.chunk.css",
-    "static/js/2.8776dc8a.chunk.js",
+    "static/js/runtime-main.cff71203.js",
+    "static/js/2.b32a49c0.chunk.js",
     "static/css/main.d37e549b.chunk.css",
-    "static/js/main.f11cb835.chunk.js"
+    "static/js/main.92f89a41.chunk.js"
   ]
 }
