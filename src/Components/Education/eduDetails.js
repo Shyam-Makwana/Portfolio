@@ -1,12 +1,12 @@
 export const eduDetails = [
   {
     title: "Indiana University, Bloomington, Indiana",
-    degree: "Master of Science in Computer Science",
+    degree: "Master of Science in Computer Science (GPA: 4/4)",
     year: "August 2022 - May 2024",
   },
   {
     title: "Dharmsinh Desai University, Nadiad, Gujarat",
-    degree: "Bachelor of Technology in Information Technology (Gold Medalist)",
+    degree: "Bachelor of Technology in Information Technology (Gold Medalist) (GPA: 9.32/10)",
     year: "July 2018 - May 2022",
   },
   {

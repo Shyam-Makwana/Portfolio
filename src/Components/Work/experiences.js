@@ -1,7 +1,15 @@
 export const work = [
   {
+    title: "Indiana University, Bloomington",
+    role: "Graduate Teaching Assistant - System Prog with C & Unix (C291) and Data Structures (C343)",
+    duration: "August 2022 - May 2023",
+    description:
+      `- Mentoring a class of 200+ students, aiding professors during classes, conducting labs, reviewing weekly assignment
+      submissions, and providing individual feedback to students during office hours.`,
+  },
+  {
     title: "Indian Space Research Organisation (ISRO)",
-    role: "Research and Development Intern",
+    role: "Software Research and Development Intern",
     duration: "December 2021 - March 2022",
     description:
       "- Worked as a Software Engineer under Network Department and developed an Authentication Protocol for ISRO that gives access to the User (client) to access any private services in the ISRO network.",
@@ -22,5 +30,20 @@ export const work = [
       Suggested a new UI design for the website making it more user-friendly, and collaborated on finding and fixing bugs.`,
     techs: ["React JS", "Node JS", "Express JS", "MongoDB", "Bootstrap"],
     fourclowns_certificate: true,
+  },
+  {
+    title: "Institution of Electronics and Telecommunication Engineers (IETE)",
+    role: "Member of Students' Forum",
+    duration: "December 2019 - November 2021",
+    description:
+      `- Conducted seminars related to various technologies for our college students and assisted them in their learning journey.`,
+  },
+  {
+    title: "Codechef DDU Chapter",
+    role: "Executive Team Member",
+    duration: "February 2019 - June 2021",
+    description:
+      `- Organized seminars and coding tests to enlighten our juniors about competitive programming.`,
+      codechef_certificate: true,
   },
 ];

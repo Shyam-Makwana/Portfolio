@@ -1,6 +1,3 @@
-import { VscGithub, VscTwitter, VscMail } from "react-icons/vsc";
-import { SiCodechef, SiHackerrank } from "react-icons/si";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import BottomLine from "./BottomLine";
 import SocialIcon from "./SocialIcon";
 
