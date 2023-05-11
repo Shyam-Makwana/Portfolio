@@ -1,7 +1,16 @@
 export const work = [
   {
+    title: "Synopsys",
+    role: "Software Development Engineer Intern (Network and Security)",
+    duration: "May 2023 - August 2023",
+    description:
+      `- Rebuilding the frontend of the 95th percentile metric dashboard using ReactJS.
+      Migrating an existing MySQL DB to a newer version and implementing new metrics from other sources.
+      Utilizing RestAPI to generate BMC Remedy tickets for trend analysis and introducing a UI or workflow for easily adding/modifying/removing circuits on the dashboard.`,
+  },
+  {
     title: "Indiana University, Bloomington",
-    role: "Graduate Teaching Assistant - System Prog with C & Unix (C291) and Data Structures (C343)",
+    role: "Graduate Teaching Assistant - Data Structures (A594) and System Prog with C & Unix (C291)",
     duration: "August 2022 - May 2023",
     description:
       `- Mentoring a class of 200+ students, aiding professors during classes, conducting labs, reviewing weekly assignment

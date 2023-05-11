@@ -7,7 +7,7 @@ const Mail = () => {
         style={{
           transform: "rotateZ(90deg)",
           marginBottom: "100px",
-          color: "var(--text-primary)",
+          color: "var(--text-info)",
         }}
         href="mailto:makwanashyam6@gmail.com"
       >

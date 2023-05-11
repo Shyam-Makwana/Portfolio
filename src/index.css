@@ -22,13 +22,16 @@ span {
 }
 
 :root {
-  --background-primary: #EDF9FE;
-  --background-secondary: #EDF9FE;
+  --background-primary: #0A192F;
+  --background-secondary: #0A192F;
   --background-accent: #b4cee6;
-  --text-primary: #001C55;
-  --text-secondary: #5580A9;
-  --text-info: #5d7097;
-  --text-header: #0e337e;
+  --background-hover: #10293B;
+  --text-primary: #CCD6F6;
+  --text-secondary: #8892B0;
+  --text-info: #64ffda;
+  --text-2: #172A45;
+  --text-3: #A8B2D1;
+  --text-header: #172A45;
   --text-extra: #ff0000;
 }
 

@@ -16,7 +16,7 @@ const Navbar = (props) => {
         "p-4 border-gray-700 shadow-lg fixed w-screen flex md:justify-center items-center text-xl z-50",
       ].join(" ")}
       style={{
-        color: "var(--text-primary)",
+        color: "var(--text-info)",
       }}
     >
       <div className="hidden md:flex items-center">

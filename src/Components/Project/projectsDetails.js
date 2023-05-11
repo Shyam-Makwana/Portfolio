@@ -1,5 +1,29 @@
 export const projects = [
   {
+    title: "BookEasy",
+    description:
+      `Led the development of a user-friendly Hotel Booking application that streamlined the booking process for travelers.
+      Implemented a solution with MySQL as the database, resulting in a seamless experience for users and managers alike.
+      Implemented a seamless user experience for finding and booking hotels, including search, selection, and payment
+      processes, resulting in positive user feedback, elevating the sales, and increased bookings.`,
+    techs: [
+      "ReactJS", "NodeJS", "AWS", "Azure", "MySQL"
+    ],
+    github: "https://github.com/Shyam-Makwana/BookEasy",
+    link: "https://bookeasy.netlify.app/",
+  },
+  {
+    title: "Home Credit Default Risk",
+    description:
+      `Home Credit Default Risk is a machine learning project aimed at predicting the probability of loan default for Home Credit's customers.
+      Utilized exploratory data analysis techniques, feature engineering, and machine learning algorithms to develop models for loan default prediction.
+      Achieved high accuracy and performance metrics through data preprocessing, model selection, and hyperparameter tuning.`,
+    techs: [
+      "Python", "Scikit-learn", "PyTorch", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "Seaborn"
+    ],
+    github: "https://github.com/Shyam-Makwana/Home-Credit-Default-Risk",
+  },
+  {
     title: "Network Admission Control using Single Packet Authorization",
     description:
       `Developed an authentication protocol for ISRO that gives access to the user (client) to access any private services in the ISRO network.

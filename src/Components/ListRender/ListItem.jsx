@@ -4,15 +4,19 @@ import ISRO from "../../assets/ISRO_Certificate.pdf";
 import CODECHEF from "../../assets/CodeChef_DDU_Chapter_Certificate.pdf";
 import FOURCLOWNS from "../../assets/FourClowns_Certificate.pdf";
 import REPORT from "../../assets/ISRO_Project_Report.pdf";
+import IconReport from "../Icons/report";
+import IconGitHubPlain from "../Icons/github_plain";
+import IconWebsite from "../Icons/website";
+import IconCertificate from "../Icons/certificate";
 
 const ListItem = ({ item }) => {
   return (
     <div className="my-4">
-      <h1 className="text-2xl font-bold" style={{
-        color: "var(--text-primary)",
-      }}>{item.title}</h1>
+      {item.title && <h1 className="text-2xl font-bold" style={{
+        color: "var(--text-info)",
+      }}>{item.title}</h1>}
       {item.role && <p className="text-lg text-gray-300" style={{
-        color: "var(--text-secondary)",
+        color: "var(--text-primary)",
       }}>{item.role}</p>}
       {item.duration && (
         <i className="text-gray-300 text-base" style={{
@@ -23,7 +27,7 @@ const ListItem = ({ item }) => {
         <p
           className="mt-1 text-base"
           style={{
-            color: "var(--text-info)",
+            color: "var(--text-3)",
           }}
         >
           {item.description}
@@ -37,14 +41,12 @@ const ListItem = ({ item }) => {
         </div>
       )}
       <div className="flex">
-        {item.github && <SocialIcon url={item.github} Icon="https://img.icons8.com/color/32/000000/github--v1.png" pdr={7}/>}
-        {item.link && <SocialIcon url={item.link} Icon="https://img.icons8.com/color/32/000000/domain--v1.png" pdr={5}/>}
-      </div>
-      <div>
-        {item.isro_certificate &&  <SocialIcon url={ISRO} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
-        {item.fourclowns_certificate &&  <SocialIcon url={FOURCLOWNS} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
-        {item.codechef_certificate &&  <SocialIcon url={CODECHEF} Icon="https://img.icons8.com/fluency/32/000000/certification.png"/>}
-        {item.isro_report &&  <SocialIcon url={REPORT} Icon="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/30/000000/external-report-data-analytics-flaticons-lineal-color-flat-icons-3.png"/>}
+        {item.isro_report &&  <IconReport url={REPORT} pdt={5} pdr={5}/>}
+        {item.link && <IconWebsite url={item.link} pdt={6} pdr={10}/>}
+        {item.github && <IconGitHubPlain url={item.github} pdt={4}/>}
+        {item.isro_certificate &&  <IconCertificate url={ISRO} pdt={5}/>}
+        {item.fourclowns_certificate &&  <IconCertificate url={FOURCLOWNS} pdt={5}/>}
+        {item.codechef_certificate &&  <IconCertificate url={CODECHEF} pdt={5}/>}
       </div>
     </div>
   );

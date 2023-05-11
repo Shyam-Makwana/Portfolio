@@ -16,6 +16,7 @@ const Home = (props) => {
 
   return (
     <div className={[classes.Home, "h-screen w-screen text-white"].join(" ")}>
+      
       <Navbar postView={props.postView} />
       <AnimatePresence>
         <Switch location={location} key={location.key}>
