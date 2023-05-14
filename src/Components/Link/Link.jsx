@@ -21,7 +21,7 @@ const Link = ({ name, path, delay, click }) => {
         exact
         to={path}
         className={[
-          "hover:text-black transition-all duration-300 relative mx-4",
+          `transition-all duration-300 relative mx-4`,
           classes.Link,
         ].join(" ")}
         activeClassName={classes.ActiveLink}

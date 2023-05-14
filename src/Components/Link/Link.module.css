@@ -1,9 +1,9 @@
 .Link {
-  color: var(--text-info);
+  color: var(--text-primary); /*Link text color*/
   margin-bottom: 0;
 }
 .ActiveLink {
-  color: var(--text-primary);
+  color: var(--text-info); /*Current link text color*/
   font-weight: bold;
 }
 
@@ -17,7 +17,8 @@
   opacity: 0;
   transform: scale(0);
   transform-origin: center;
-  background-color: var(--text-primary);
+  background-color: var(--text-info); /*Hover link underline text color*/
+  color: var(--text-extra);
   transition: all 400ms;
 }
 .ActiveLink::before {

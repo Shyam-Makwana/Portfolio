@@ -1,4 +1,3 @@
-import SocialIcon from "../Connect/SocialIcon";
 import DDU_Degree from "../../assets/DDU_Degree.pdf";
 import DDU_Transcript from "../../assets/DDU_Transcript.pdf";
 import DDU_Letter from "../../assets/DDU_Letter.pdf";
@@ -12,7 +11,7 @@ const Education = ({ edu }) => {
     <div className="my-4">
       <h1 className="text-2xl font-bold" style={{
           color: "var(--text-primary)",
-        }}>{edu.title}</h1>
+        }}><a href={edu.url} target="_blank" rel="noreferrer">{edu.title}</a></h1>
       <p className="text-lg text-gray-300" style={{
           color: "var(--text-info)",
         }}>{edu.degree}</p>

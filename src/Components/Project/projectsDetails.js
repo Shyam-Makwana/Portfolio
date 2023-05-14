@@ -9,6 +9,7 @@ export const projects = [
     techs: [
       "ReactJS", "NodeJS", "AWS", "Azure", "MySQL"
     ],
+    url: "https://bookeasy.netlify.app/",
     github: "https://github.com/Shyam-Makwana/BookEasy",
     link: "https://bookeasy.netlify.app/",
   },
@@ -21,6 +22,7 @@ export const projects = [
     techs: [
       "Python", "Scikit-learn", "PyTorch", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "Seaborn"
     ],
+    url: "https://github.com/Shyam-Makwana/Home-Credit-Default-Risk",
     github: "https://github.com/Shyam-Makwana/Home-Credit-Default-Risk",
   },
   {
@@ -35,8 +37,6 @@ export const projects = [
       "C#", ".Net",
       "Socket Programming",
     ],
-    github: "",
-    link: "",
     isro_report: true,
   },
   {
@@ -53,6 +53,7 @@ export const projects = [
     ],
     github: "https://github.com/Shyam-Makwana/Waste-Food-Management-System-MERN-Stack",
     link: "https://we-dont-waste-food.herokuapp.com/",
+    url: "https://we-dont-waste-food.herokuapp.com/",
   },
   {
     title: "All In One Compiler",
@@ -66,6 +67,7 @@ export const projects = [
     ],
     github: "https://github.com/Shyam-Makwana/All-In-One-Compiler",
     link: "https://all-in-one-compiler.herokuapp.com/",
+    url: "https://all-in-one-compiler.herokuapp.com/",
   },
   {
     title: "Content-Based Book Recommendation System",
@@ -77,6 +79,7 @@ export const projects = [
       "Python", "Pandas", "NLTK", "Gensim", "MatPlotlib", "SciPy",
     ],
     github: "https://github.com/Shyam-Makwana/Content-Based-Book-Recommendation-System",
+    url: "https://github.com/Shyam-Makwana/Content-Based-Book-Recommendation-System",
   },
   {
     title: "Customer Clustering for Marketing Purpose",
@@ -89,6 +92,7 @@ export const projects = [
       "Python", "MySQL", "Django", "HTML", "Css", "JavaScript"
     ],
     github: "https://github.com/Shyam-Makwana/Customer-Clustering-for-marketing-purpose",
+    url: "https://github.com/Shyam-Makwana/Customer-Clustering-for-marketing-purpose",
   },
   {
     title: "Chatbot for searching restaurants and table booking",
@@ -98,6 +102,7 @@ export const projects = [
       Remodelled the chatbot to display a list of restaurants that fit according to user’s preferences.`,
     techs: ["Python", "RASA", "MySQL", "Django", "HTML", "Css", "JavaScript",],
     github: "https://github.com/Shyam-Makwana/Chatbot-for-Searching-Restaurants-and-Booking-Table",
+    url: "https://github.com/Shyam-Makwana/Chatbot-for-Searching-Restaurants-and-Booking-Table",
   },
   {
     title: "Real-time Insights from Social Media Data",
@@ -106,6 +111,7 @@ export const projects = [
       bolts of Twitter Data and thorough analysis of a hot-trend tweets of Twitter.`,
     techs: ["Python", "Json", "Pandas", "Matplotlib", "Twitter API",],
     github: "https://github.com/Shyam-Makwana/Chatbot-for-Searching-Restaurants-and-Booking-Table",
+    url: "https://github.com/Shyam-Makwana/Chatbot-for-Searching-Restaurants-and-Booking-Table",
   },
   {
     title: "Grad School Admission Recommendation System",
@@ -120,7 +126,8 @@ export const projects = [
       "I created a Map using MapBox which shows total cases, deaths, sick, and Recovered people of Corona.",
     techs: ["MapBox", "JavaScript", "CSS", "HTML"],
     github: "https://github.com/Shyam-Makwana/CoronaMap-Using-Mapbox",
-    link: "https://shyam-makwana.github.io/CoronaMap-Using-Mapbox/coronamap.html"
+    link: "https://shyam-makwana.github.io/CoronaMap-Using-Mapbox/coronamap.html",
+    url: "https://shyam-makwana.github.io/CoronaMap-Using-Mapbox/coronamap.html",
   },
   {
     title: "Chrome Extension",
@@ -128,6 +135,7 @@ export const projects = [
       "Chrome Extension for finding the meaning of any selected word on any web page.",
     techs: ["JavaScript", "CSS", "HTML"],
     github: "https://github.com/Shyam-Makwana/Chrome-Extension",
+    url: "https://github.com/Shyam-Makwana/Chrome-Extension",
   },
   {
     title: "Text Utility",
@@ -135,6 +143,7 @@ export const projects = [
       "A very handy text tool where you can change between lower-case and upper-case letters, where you can capitalize, uncapitalize, convert to mix case, and transform your text in different formats according to your needs.",
     techs: ["Django", "Python", "JavaScript", "CSS", "HTML"],
     github: "https://github.com/Shyam-Makwana/Text-Utility",
+    url: "https://github.com/Shyam-Makwana/Text-Utility",
   },
   {
     title: "E-Commerce Database System",
@@ -142,5 +151,6 @@ export const projects = [
       "Designed ER diagram, Schema diagram, created tables, views, procedure and wrote more than 25 queries for different purposes.",
     techs: ["MySQL", "PL/SQL"],
     github: "https://github.com/Shyam-Makwana/Database-Management-System",
+    url: "https://github.com/Shyam-Makwana/Database-Management-System",
   },
 ];

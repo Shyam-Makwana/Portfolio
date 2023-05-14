@@ -38,7 +38,7 @@ const Intro = (props) => {
           color: "var(--text-info)",
         }}
       >
-      <b>Shyam Makwana </b><span className={classes.wave}>👋</span>
+      <b>Shyam Makwana </b><span className={classes.wave}><div style = {{color: "transparent", textShadow: "0 0 0 var(--text-info)"}}>👋</div></span>
       </motion.h1>
       <motion.h2
         variants={variant}

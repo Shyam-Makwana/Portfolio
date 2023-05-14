@@ -2,33 +2,36 @@ export const technologies = [
   {
     title: "Core",
     techs: [
-      "Software Engineering", "Artificial Intelligence", "Machine Learning", "Competitive Programming", "Data Structure", "Database",
+      "Full-Stack Web Developer", "Software Engineering", "Data Structure & Algorithms", "Artificial Intelligence", "Machine Learning", "Competitive Programming", "Database",
     ],
   },
   {
     title: "Languages",
     techs: [
-      "C", "C++", "Java", "Python", "C#", "R", "HTML", "CSS",
-      "JavaScript",
-      "SQL", "PL/SQL", "Verilog", "Prolog", "Assembly Language"
+      "C", "C++", "Python", "Java", "C#", "R", "HTML", "CSS", "JavaScript",
+      "SQL", "PL/SQL", "Verilog", "Prolog", "Assembly", "LaTeX"
     ],
   }, 
   {
     title: "Frameworks & Libraries",
     techs: [
-      "React JS", "Node JS", "GraphQL", "Angular JS", "jQuery", "Express JS", "AJAX", "Django",
-      "Bootstrap", "Spring Boot", "Spring MVC", "JSP", "Servlets", ".Net", "Hibernate"
+      //Nodejs Reactjs Bootstrap Expressjs Django Spring Hibernate .NET JUnit NumPy Pandas SciPy TensorFlow Graphql Jquery Npm TensorFlow
+      "React JS", "Node JS", "Django", "Bootstrap", "Spring Boot", "Spring MVC", ".Net", "Hibernate", "JSP", "Servlets", "JUnit",
+      "GraphQL", "jQuery", "Express JS", "AJAX", "NumPy", "Pandas", "SciPy", "TensorFlow"
     ],
   },
   {
-    title: "Tools",
+    title: "Software & Tools",
     techs: [
-      "Linux", "Docker", "Visual Studio Code", "Git", "Github", "Packet Tracer", "Wireshark", "Anaconda",
-      "MySQL", "MongoDB", "Netbeans", "Eclipse", "Prolog", "PyCharm", "PhpMyAdmin", "DosBox"
+      "Docker", "Jira", "Kubernetes", "Jenkins", "Git", "Postman", "Colab", "IntelliJ IDEA", "Atom", "Wireshark", "Anaconda", "Visual Studio Code", "MySQL", "MongoDB", "Netbeans",
+      "Eclipse", "Linux", "PyCharm", "PhpMyAdmin", "DosBox", "Packet Tracer", "Spyder", "Xampp"
     ],
   },
   {
-    title: "Database",
-    techs: ["MongoDB", "OracleSQL", "MySQL"],
+    title: "Databases & Cloud hosting",
+    techs: [
+      //MySQL MongoDB Postgres Neo4J MicrosoftSQLServer Oracle AWS Azure Firebase GitHub Pages Heroku Netlify
+      "MySQL", "MongoDB", "Postgres", "Neo4J", "MicrosoftSQLServer", "Oracle", "AWS", "Azure", "Firebase", "GitHub", "Pages", "Heroku", "Netlify",
+    ],
   },
 ];

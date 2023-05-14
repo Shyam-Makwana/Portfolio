@@ -1,5 +1,4 @@
 import Tag from "../Tag/Tag";
-import SocialIcon from "../Connect/SocialIcon";
 import ISRO from "../../assets/ISRO_Certificate.pdf";
 import CODECHEF from "../../assets/CodeChef_DDU_Chapter_Certificate.pdf";
 import FOURCLOWNS from "../../assets/FourClowns_Certificate.pdf";
@@ -14,7 +13,7 @@ const ListItem = ({ item }) => {
     <div className="my-4">
       {item.title && <h1 className="text-2xl font-bold" style={{
         color: "var(--text-info)",
-      }}>{item.title}</h1>}
+      }}><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h1>}
       {item.role && <p className="text-lg text-gray-300" style={{
         color: "var(--text-primary)",
       }}>{item.role}</p>}
