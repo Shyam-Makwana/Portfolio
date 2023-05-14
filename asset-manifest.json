@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.cda260fc.chunk.css",
-    "main.js": "/static/js/main.7abf49ec.chunk.js",
-    "main.js.map": "/static/js/main.7abf49ec.chunk.js.map",
+    "main.css": "/static/css/main.bb232c40.chunk.css",
+    "main.js": "/static/js/main.bad03dd7.chunk.js",
+    "main.js.map": "/static/js/main.bad03dd7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7f816a58.js",
     "runtime-main.js.map": "/static/js/runtime-main.7f816a58.js.map",
     "static/js/2.7ff5d6ee.chunk.js": "/static/js/2.7ff5d6ee.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7180638c.chunk.js": "/static/js/3.7180638c.chunk.js",
     "static/js/3.7180638c.chunk.js.map": "/static/js/3.7180638c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cda260fc.chunk.css.map": "/static/css/main.cda260fc.chunk.css.map",
+    "static/css/main.bb232c40.chunk.css.map": "/static/css/main.bb232c40.chunk.css.map",
     "static/js/2.7ff5d6ee.chunk.js.LICENSE.txt": "/static/js/2.7ff5d6ee.chunk.js.LICENSE.txt",
     "static/media/CodeChef_DDU_Chapter_Certificate.d9249f35.pdf": "/static/media/CodeChef_DDU_Chapter_Certificate.d9249f35.pdf",
     "static/media/DDU_Degree.96eb7e98.pdf": "/static/media/DDU_Degree.96eb7e98.pdf",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.7f816a58.js",
     "static/js/2.7ff5d6ee.chunk.js",
-    "static/css/main.cda260fc.chunk.css",
-    "static/js/main.7abf49ec.chunk.js"
+    "static/css/main.bb232c40.chunk.css",
+    "static/js/main.bad03dd7.chunk.js"
   ]
 }
