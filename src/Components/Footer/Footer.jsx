@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="mx-1" style={{ display: 'inline' }}>
           <IconHeart/>
         </div>
-        <p style={{ display: 'inline' }}>by Shyam Makwana</p>
+        <p style={{ display: 'inline' }}>by Shyam</p>
       </div>
     </div>
   );

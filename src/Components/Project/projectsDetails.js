@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: "CyberBank",
+    description:
+      `Spearheaded the design and development of a Secure Banking System (SBS) web application, focusing on robust security, user-friendly interfaces, and efficient banking operations.`,
+    techs: [
+      "ReactJS", "Python", "Flask", "MUI", "JavaScript", "MySQL"
+    ],
+    github: "https://github.com/Shyam-Makwana/CyberBank",
+    url: "https://cyberbank.netlify.app/",
+    link: "https://cyberbank.netlify.app/",
+  },
+  {
     title: "BookEasy",
     description:
       `Led the development of a user-friendly Hotel Booking application that streamlined the booking process for travelers.
@@ -12,6 +23,36 @@ export const projects = [
     url: "https://bookeasy.netlify.app/",
     github: "https://github.com/Shyam-Makwana/BookEasy",
     link: "https://bookeasy.netlify.app/",
+  },
+  {
+    title: "FoodSaver",
+    description:
+      `Responsive MERN Stack Web Application with Google Map API for accurate address and SendGrid API for sending Emails that passed Blackbox and Whitebox testing, developed with a goal to minimize food wastage. There are two users, one is a donor and the second one is the recipient, where the donor can donate the food and the recipient can receive that food.`,
+    techs: [
+      "React JS",
+      "Node JS",
+      "Rest API",
+      "MongoDB",
+      "Express JS",
+      "Bootstrap",
+    ],
+    github: "https://github.com/Shyam-Makwana/FoodSaver",
+    link: "https://thefoodsaver.netlify.app/",
+    url: "https://thefoodsaver.netlify.app/",
+  },
+  {
+    title: "All In One Compiler",
+    description:
+      `Web Application calculator that covers all the concepts of Compiler Design such as First & Follow, Left factoring, Left Recursion, Token Generation, and Self-Designed Compiler.`,
+    techs: [
+      "Flex",
+      "Yacc",
+      "C",
+      "Node JS", "HTML", "JavaScript", "jQuery", "Ajax",
+    ],
+    github: "https://github.com/Shyam-Makwana/All-In-One-Compiler",
+    link: "https://all-in-one-compiler.onrender.com",
+    url: "https://all-in-one-compiler.onrender.com",
   },
   {
     title: "Home Credit Default Risk",
@@ -40,36 +81,6 @@ export const projects = [
     isro_report: true,
   },
   {
-    title: "Waste Food Management System",
-    description:
-      `Responsive MERN Stack Web Application with Google Map API for accurate address and SendGrid API for sending Emails that passed Blackbox and Whitebox testing, developed with a goal to minimize food wastage. There are two users, one is a donor and the second one is the recipient, where the donor can donate the food and the recipient can receive that food.`,
-    techs: [
-      "React JS",
-      "Node JS",
-      "Rest API",
-      "MongoDB",
-      "Express JS",
-      "Bootstrap",
-    ],
-    github: "https://github.com/Shyam-Makwana/Waste-Food-Management-System-MERN-Stack",
-    link: "https://we-dont-waste-food.herokuapp.com/",
-    url: "https://we-dont-waste-food.herokuapp.com/",
-  },
-  {
-    title: "All In One Compiler",
-    description:
-      `Web Application calculator that covers all the concepts of Compiler Design such as First & Follow, Left factoring, Left Recursion, Token Generation, and Self-Designed Compiler.`,
-    techs: [
-      "Flex",
-      "Yacc",
-      "C",
-      "Node JS", "HTML", "JavaScript", "jQuery", "Ajax",
-    ],
-    github: "https://github.com/Shyam-Makwana/All-In-One-Compiler",
-    link: "https://all-in-one-compiler.herokuapp.com/",
-    url: "https://all-in-one-compiler.herokuapp.com/",
-  },
-  {
     title: "Content-Based Book Recommendation System",
     description:
       `Devised a system to determine which books are close to each other and visualize which groups of books have similar topics based on how similar discussed topics are.
@@ -88,7 +99,7 @@ export const projects = [
       Performed Principal Component Analysis on the dataset using sklearn to reduce the dimensionality of data set while retaining as much information as possible.
       Grouped given unlabelled customer dataset into 6 clusters using unsupervised K-means clustering algorithm.
       Visualized the results using Matplotlib.`,
-      techs: [
+    techs: [
       "Python", "MySQL", "Django", "HTML", "Css", "JavaScript"
     ],
     github: "https://github.com/Shyam-Makwana/Customer-Clustering-for-marketing-purpose",
