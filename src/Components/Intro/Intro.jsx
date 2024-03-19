@@ -65,7 +65,7 @@ const Intro = (props) => {
         }}
       >
         <p className="my-4">
-        A dedicated and extremely enthusiastic individual who works with tenacity and is very enthusiastic about mastering new Technologies. Actively looking for new opportunities to learn more and gain experience in my domain. I am a quick learner and passionate about learning something new every day.
+        A dedicated and extremely enthusiastic individual who works with tenacity and is very enthusiastic about mastering new Technologies. Actively looking for new opportunities to learn more and gain experience in tech domain. I am a quick learner and passionate about learning something new every day.
         </p>
         <p className="my-4">
         I am currently pursuing my Master of Science in Computer Science from Indiana University Bloomington.

@@ -32,7 +32,7 @@ export const technologies = [
     title: "Databases & Cloud hosting",
     techs: [
       //MySQL MongoDB Postgres Neo4J MicrosoftSQLServer Oracle AWS Azure Firebase GitHub Pages Heroku Netlify
-      "MySQL", "MongoDB", "Postgres", "Neo4J", "Microsoft SQL Server", "Oracle", "AWS", "Azure", "Firebase", "GitHub", "Pages", "Heroku", "Netlify", "Render"
+      "MySQL", "MongoDB", "Postgres", "Neo4J", "Microsoft SQL Server", "Oracle", "AWS", "Azure", "Firebase", "GitHub Pages", "Heroku", "Netlify", "Render"
     ],
   },
 ];
