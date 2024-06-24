@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ec824d4c.chunk.css",
-    "main.js": "/static/js/main.31fb0458.chunk.js",
-    "main.js.map": "/static/js/main.31fb0458.chunk.js.map",
+    "main.js": "/static/js/main.11283785.chunk.js",
+    "main.js.map": "/static/js/main.11283785.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7f816a58.js",
     "runtime-main.js.map": "/static/js/runtime-main.7f816a58.js.map",
     "static/js/2.7ff5d6ee.chunk.js": "/static/js/2.7ff5d6ee.chunk.js",
@@ -20,12 +20,12 @@
     "static/media/ISRO_Certificate.7fe0f338.pdf": "/static/media/ISRO_Certificate.7fe0f338.pdf",
     "static/media/ISRO_Project_Report.ca90637b.pdf": "/static/media/ISRO_Project_Report.ca90637b.pdf",
     "static/media/IUB_Transcript.4e6c57d9.pdf": "/static/media/IUB_Transcript.4e6c57d9.pdf",
-    "static/media/Resume.7ef21a57.pdf": "/static/media/Resume.7ef21a57.pdf"
+    "static/media/Resume.0cc1ab65.pdf": "/static/media/Resume.0cc1ab65.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.7f816a58.js",
     "static/js/2.7ff5d6ee.chunk.js",
     "static/css/main.ec824d4c.chunk.css",
-    "static/js/main.31fb0458.chunk.js"
+    "static/js/main.11283785.chunk.js"
   ]
 }
