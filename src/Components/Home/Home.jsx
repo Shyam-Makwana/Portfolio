@@ -31,7 +31,7 @@ const Home = (props) => {
         <SocialMedia />
         <Mail />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

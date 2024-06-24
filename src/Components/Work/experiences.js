@@ -1,5 +1,12 @@
 export const work = [
   {
+    title: "Bolster AI",
+    role: "Software Engineer",
+    duration: "June 2024 - Present",
+    description: "",
+    url: "https://bolster.ai"
+  },
+  {
     title: "Synopsys Inc.",
     role: "Software Engineer Intern",
     duration: "May 2023 - August 2023",

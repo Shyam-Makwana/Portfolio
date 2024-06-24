@@ -9,7 +9,7 @@ export const eduDetails = [
   {
     title: "Dharmsinh Desai University, Nadiad, Gujarat",
     degree: "Bachelor of Technology in Information Technology (Gold Medalist) (GPA: 9.32/10)",
-    year: "July 2018 - May 2022",
+    year: "August 2018 - May 2022",
     url: "https://ddu.ac.in/",
     ddu_degree: true,
     ddu_transcript: true,
